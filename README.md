@@ -1,15 +1,46 @@
 This Project is to design a simple **Banking System** that manages accounts for customers. 
 The system should allow users to create different types of bank accounts, perform transactions (deposit and withdraw), and display account details.
 
-Welcome to the Banking System!
-
+**Welcome to the Banking System!**
 Choose an account type:
+
+If the user **select 1**., he/she can create a Savings account and select Initial deposit amount and Interest rate.
 1. Savings Account
 2. Checking Account
 3.Apply Interest
 4.Exit
-Enter your choice
+Enter your choice: 1
+Enter account holder name: Polina
+Enter initial deposit amount: 100
+Enter interest rate (e.g., 5 for 5%): 5
 
+Account created successfully!
+Account Number: ACC392051
+Account Holder: Polina
+Balance: $100.00
+
+
+After the user selects 1, another options becomes available:
+
+Choose an action:
+1. Deposit
+2. Withdraw
+3. Apply Interest
+4. Exit
+Enter your choice: 2
+
+After the user selects 2. Withdraw, then he also selects the amount to be withdrawed the Transaction is confirmed with message and the user gets the updated Balance.
+Choose an action:
+1. Deposit
+2. Withdraw
+3. Apply Interest
+4. Exit
+Enter your choice: 2
+Enter withdraw amount: 90
+Transaction successful!
+Updated Balance: $10.00
+
+etc.
 
 During implementation several core principles of Object-Oriented Programming (OOP) has been applied:
 - **Encapsulation**, **Inheritance**, **Polymorphism**, and **Abstraction**
